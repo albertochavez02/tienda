@@ -2,6 +2,10 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+@app.route('/indicadores.py')
+def indicadores():
+    return render_template('indicadores.py')
+
 @app.route('/')
 def home():
     return render_template('home.html')
