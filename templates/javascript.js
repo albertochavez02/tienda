@@ -5,7 +5,7 @@
 
 
 //BASE DE DATOS
-var productos = ["Antivirus", "Grafica", "Disco duro", "Ordenador", "Bolso portatil", "Portatil", "Memoria RAM", "Router Linux", "Sintonizadora TV"];
+var productos = ["Chamarra", "CobijaGorro", "Cobija roja", "Cobija verde", "Cobija puntos", "Gorro y orejas", "Cobija gris", "Sirena", "Cobijarosa"];
 var imgGrandes = ["img/productos/1.jpg", "../../src/img/productos/2.jpg", "../../src/img/productos/3.jpg", "../../src/img/productos/4.jpg", "../../src/img/productos/5.jpg", "../../src/img/productos/6.jpg", "../../img/src/productos/7.jpg", "../../img/src/productos/8.jpg", "../../img/src/productos/9.jpg"];
 var imgPeque = ["img/src/productos/1m.jpg", "../../img/src/productos/2m.jpg", "../../img/src/productos/3m.jpg", "../../src/img/productos/4m.jpg", "../../src/img/productos/5m.jpg", "../../img/src/productos/6m.jpg", "../../img/src/productos/7m.jpg", "../../img/src/productos/8m.jpg", "../../src/img/productos/9m.jpg"];
 var precios = [33, 169, 36, 360, 11, 540, 21, 66, 25];
@@ -17,8 +17,6 @@ var uniUser;
 
 //JAVASCRIPT A EJECUTARSE UNA VEZ CARGADA LA PAGINA:	
 window.onload = function() {
-
-
     //Se cargan los productos dentro del HTML de forna dinamica haciendo uso de los datos de la base de datos, como si de un PHP se tratase:
     var DIVS = document.getElementsByName("DIVS");
     for (i in productos) {
