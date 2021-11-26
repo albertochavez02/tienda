@@ -91,6 +91,7 @@ div.menuSi {
 /*Divs para colocar cada producto en su sitio*/
 
 #div1 {
+    color: #7F7FD5;
     position: absolute;
     top: 38px;
     left: 12px;
