@@ -6,8 +6,8 @@
 
 //BASE DE DATOS
 var productos = ["Antivirus", "Grafica", "Disco duro", "Ordenador", "Bolso portatil", "Portatil", "Memoria RAM", "Router Linux", "Sintonizadora TV"];
-var imgGrandes = ["img/productos/1.jpg", "img/productos/2.jpg", "img/productos/3.jpg", "img/productos/4.jpg", "img/productos/5.jpg", "img/productos/6.jpg", "img/productos/7.jpg", "img/productos/8.jpg", "img/productos/9.jpg"];
-var imgPeque = ["img/productos/1m.jpg", "img/productos/2m.jpg", "img/productos/3m.jpg", "img/productos/4m.jpg", "img/productos/5m.jpg", "img/productos/6m.jpg", "img/productos/7m.jpg", "img/productos/8m.jpg", "img/productos/9m.jpg"];
+var imgGrandes = ["../../src/img/productos/1.jpg", "../../src/img/productos/2.jpg", "../../src/img/productos/3.jpg", "../../src/img/productos/4.jpg", "../../src/img/productos/5.jpg", "../../src/img/productos/6.jpg", "../../src/img/productos/7.jpg", "../../src/img/productos/8.jpg", "../../src/img/productos/9.jpg"];
+var imgPeque = ["../../src/img/productos/1m.jpg", "../../src/img/productos/2m.jpg", "../../src/img/productos/3m.jpg", "../../src/img/productos/4m.jpg", "../../src/img/productos/5m.jpg", "../../src/img/productos/6m.jpg", "../../src/img/productos/7m.jpg", "../../src/img/productos/8m.jpg", "../../src/img/productos/9m.jpg"];
 var precios = [33, 169, 36, 360, 11, 540, 21, 66, 25];
 var stock = [5, 2, 8, 3, 10, 4, 3, 1, 2];
 var precioTransporte = [6, 12, 20, "gratis"];
