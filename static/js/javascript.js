@@ -6,7 +6,7 @@
 
 //BASE DE DATOS
 var productos = ["Chamarra", "CobijaGorro", "Cobija roja", "Cobija verde", "Cobija puntos", "Gorro y orejas", "Cobija gris", "Sirena", "Cobijarosa"];
-var imgGrandes = ["img/productos/1.jpg", "img/productos/2.jpg", "img/productos/3.jpg", "img/productos/4.jpg", "img/productos/5.jpg", "img/productos/6.jpg", "img/productos/7.jpg", "../../img/src/productos/8.jpg", "../../img/src/productos/9.jpg"];
+var imgGrandes = ["img/productos/1.jpg", "img/productos/2.jpg", "img/productos/3.jpg", "img/productos/4.jpg", "img/productos/5.jpg", "img/productos/6.jpg", "img/productos/7.jpg", "img/src/productos/8.jpg", "img/src/productos/9.jpg"];
 var imgPeque = ["img/productos/1m.jpg", "img/productos/2m.jpg", "img/productos/3m.jpg", "img/productos/4m.jpg", "img/productos/5m.jpg", "img/productos/6m.jpg", "img/productos/7m.jpg", "img/productos/8m.jpg", "img/productos/9m.jpg"];
 var precios = [500, 600, 400, 300, 500, 540, 500, 500, 400];
 var stock = [100, 100, 100, 100, 100, 100, 100, 100, 100];
